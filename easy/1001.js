@@ -8,3 +8,12 @@ Print the letter X (uppercase) with a blank space before and after the equal sig
 
 Obs.: don't forget the endline after all.*/
 
+var input = require('fs').readFileSync('/dev/stdin', 'utf8');
+var lines = input.split('\n');
+
+const a = parseInt(lines[0])
+const b = parseInt(lines[1])
+
+const x = a + b
+
+console.log(`X = ${x}`)
