@@ -5,7 +5,8 @@ Input
 The input file will contain 2 integer numbers.
 
 Output
-Print the letter X (uppercase) with a blank space before and after the equal signal followed by the value of X, according to the following example.
+Print the letter X (uppercase) with a blank space before and after the equal signal followed by the value of X,
+according to the following example.
 
 Obs.: don't forget the endline after all.*/
 
