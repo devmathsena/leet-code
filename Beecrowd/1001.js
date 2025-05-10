@@ -24,9 +24,13 @@ Samples Input	Samples Output
 const input = `10\n20`
 const lines = input.split('\n')
 
-const a = parseInt(lines[0])
-const b = parseInt(lines[1])
+const firstNumber = parseInt(lines[0])
+const secondNumber = parseInt(lines[1])
 
-const x = a + b
+function sum(firstNumber, secondNumber) {
+    const x = firstNumber + secondNumber
 
-console.log(`X = ${x}`)
+    return `X = ${x}`
+}
+
+console.log(sum(firstNumber,secondNumber))
