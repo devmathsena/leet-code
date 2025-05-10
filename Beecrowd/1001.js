@@ -21,8 +21,8 @@ Samples Input	Samples Output
 
 */
 
-var input = `10\n20`
-var lines = input.split('\n')
+const input = `10\n20`
+const lines = input.split('\n')
 
 const a = parseInt(lines[0])
 const b = parseInt(lines[1])
