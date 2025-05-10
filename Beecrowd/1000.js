@@ -13,7 +13,7 @@ Input Sample	Output Sample
                 Hello World!
 */
 
-var input = require('fs').readFileSync('/dev/stdin', 'utf8');
-var lines = input.split('\n');
+const input = require('fs').readFileSync('/dev/stdin', 'utf8');
+const lines = input.split('\n');
 
 console.log("Hello World!")
