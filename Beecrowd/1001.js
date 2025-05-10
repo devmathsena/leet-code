@@ -21,8 +21,8 @@ Samples Input	Samples Output
 
 */
 
-var input = require('fs').readFileSync('/dev/stdin', 'utf8');
-var lines = input.split('\n');
+var input = `10\n20`
+var lines = input.split('\n')
 
 const a = parseInt(lines[0])
 const b = parseInt(lines[1])
