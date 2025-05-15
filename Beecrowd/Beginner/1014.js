@@ -21,8 +21,8 @@ Input Sample	Output Sample
 464.6
 */
 
-var input = '500\n35.0';
-var lines = input.split('\n');
+const input = '500\n35.0';
+const lines = input.split('\n');
 
 const totalDistance = parseInt(lines[0]);
 const totalSpentFuel = parseFloat(lines[1]);
