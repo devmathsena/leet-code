@@ -74,6 +74,20 @@ function numberBanknotesCoins(money) {
     one_cent = Math.floor(mod / 1);
     mod = mod % 1;
 
+    console.log(`NOTAS:
+${hundred} nota(s) de R$ 100.00
+${fifth} nota(s) de R$ 50.00
+${twenty} nota(s) de R$ 20.00
+${ten} nota(s) de R$ 10.00
+${five} nota(s) de R$ 5.00
+${two} nota(s) de R$ 2.00
+MOEDAS:
+${one} moeda(s) de R$ 1.00
+${fifth_cent} moeda(s) de R$ 0.50
+${twenty_five_cent} moeda(s) de R$ 0.25
+${ten_cent} moeda(s) de R$ 0.10
+${five_cent} moeda(s) de R$ 0.05
+${one_cent} moeda(s) de R$ 0.01`);
 }
 
 numberBanknotesCoins(money);
