@@ -32,3 +32,9 @@ const input = '4.16\n';
 const lines = input.split('\n');
 
 const money = Math.round(parseFloat(lines[0]) * 100);
+
+function numberBanknotesCoins(money) {
+    let hundred = 0, fifth = 0, twenty = 0, ten = 0, five = 0, two = 0;
+    let one = 0, fifth_cent = 0, twenty_five_cent = 0, ten_cent = 0, five_cent = 0, one_cent = 0;
+    let mod = 0;
+}
