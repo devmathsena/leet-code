@@ -56,6 +56,24 @@ function numberBanknotesCoins(money) {
     two = Math.floor(mod / 200);
     mod = mod % 200;
 
+    one = Math.floor(mod / 100);
+    mod = mod % 100;
+
+    fifth_cent = Math.floor(mod / 50);
+    mod = mod % 50;
+
+    twenty_five_cent = Math.floor(mod / 25);
+    mod = mod % 25;
+
+    ten_cent = Math.floor(mod / 10);
+    mod = mod % 10;
+
+    five_cent = Math.floor(mod / 5);
+    mod = mod % 5;
+
+    one_cent = Math.floor(mod / 1);
+    mod = mod % 1;
+
 }
 
 numberBanknotesCoins(money);
