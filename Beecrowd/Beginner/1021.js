@@ -27,3 +27,8 @@ Input Sample	Output Sample
                 0 moeda(s) de R$ 0.05
                 3 moeda(s) de R$ 0.01
 */
+
+const input = '4.16\n';
+const lines = input.split('\n');
+
+const money = Math.round(parseFloat(lines[0]) * 100);
